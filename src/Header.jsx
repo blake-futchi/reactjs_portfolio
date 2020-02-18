@@ -6,7 +6,7 @@ const Header = () => {
     <nav className="ui fixed inverted menu">
       <div className="ui container">
         <Link id="header" className="header item" to="/">
-          My Portfolio
+          Blake Erickson
         </Link>
         <div className="right menu">
           <NavLink
@@ -15,7 +15,15 @@ const Header = () => {
             activeStyle={{ fontWeight: "bold" }}
             to="/about"
           >
-            About Me
+            About
+          </NavLink>
+          <NavLink
+            id="services-tab"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/services"
+          >
+            Services
           </NavLink>
           <NavLink
             id="projects-tab"
@@ -23,7 +31,15 @@ const Header = () => {
             activeStyle={{ fontWeight: "bold" }}
             to="/projects"
           >
-            Projects
+            Portfolio
+          </NavLink>
+          <NavLink
+            id="contact-tab"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/contact"
+          >
+            Contact
           </NavLink>
         </div>
       </div>
