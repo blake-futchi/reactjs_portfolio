@@ -2,11 +2,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <footer>
-      <div className="ui container">
-      </div>
-    </footer>
+    <div className="ui main container">
+    </div>
   );
-  }
+}
 
 export default Contact;
