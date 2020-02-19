@@ -5,12 +5,12 @@ const Header = () => {
   return (
     <nav className="ui pointing menu stackable borderless">
       <div className="ui container">
-        <Link id="header" className="header item" to="/">
+        <Link id="tab" className="header item" to="/">
           Blake Erickson
         </Link>
         <div className="right menu">
           <NavLink
-            id="about-tab"
+            id="tab-element"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/about"
@@ -18,7 +18,7 @@ const Header = () => {
             About
           </NavLink>
           <NavLink
-            id="services-tab"
+            id="tab-element"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/services"
@@ -26,7 +26,7 @@ const Header = () => {
             Services
           </NavLink>
           <NavLink
-            id="projects-tab"
+            id="tab-element"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/projects"
@@ -34,7 +34,7 @@ const Header = () => {
             Portfolio
           </NavLink>
           <NavLink
-            id="contact-tab"
+            id="tab-element"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/contact"
