@@ -12,9 +12,6 @@ const Hello = () => {
           <a class="ui primary button" href="mailto:blake@futchi.com" subject="Hey Blake! Let's work together">Contact Me</a></div>
         </div>
       </div>
-      <div className="fold-1">
-        
-      </div>
     </div>
   );
 }
