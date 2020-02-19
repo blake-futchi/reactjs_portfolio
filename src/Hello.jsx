@@ -1,10 +1,9 @@
 import React from "react";
-import HeroImage from "./HeroImage";
+
 
 const Hello = () => {
   return ( 
-    <div class="hero-image">
-    <img src={HeroImage} alt="no image found"/>
+    <div class="hero-image" style={{ background: 'url("./src/img/cover.jpeg")', backgroundSize: 'cover', height: '100vh'}}>
       <div class="hero-text">
         <h1>I am Blake Erickson</h1>
         <h4>Entrepreneur | Junior developer | freelancer</h4>
