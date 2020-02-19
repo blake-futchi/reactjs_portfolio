@@ -4,7 +4,16 @@ const Footer = () => {
   return (
     <footer>
       <div className="ui container">
-        <p id="footer">Made with React {React.version}</p>
+        <p id="footer">
+        <i class="large icons">
+          <div>
+            <a href="https://www.instagram.com/blakeyerickson"><i aria-hidden="true" class="instagram icon" ></i></a>
+            <a href="https://www.linkedin.com/in/ericksonblake"><i aria-hidden="true" class="linkedin icon" ></i></a>
+            <a href="mailto:blake@futchi.com" subject="Hey Blake! Let's work together"><i aria-hidden="true" class="mail icon" ></i></a>
+            </div>
+    
+        </i>
+  </p>
       </div>
     </footer>
   );
