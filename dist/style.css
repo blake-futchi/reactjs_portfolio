@@ -13,6 +13,9 @@ footer {
   opacity: 0.9;
 }
 
+.ui.cards {
+  justify-content: center;
+}
 .ui.card:hover {
   transform: translateY(-1.1rem) scale(1.02); 
   -webkit-transition: all 1s ease-in-out;
@@ -50,4 +53,9 @@ footer {
 
 .item {
   padding-top: 1.5rem;
+}
+
+.fold-1 {
+  background: white;
+  height: 100vh;
 }
