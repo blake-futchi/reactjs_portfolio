@@ -73,4 +73,14 @@ footer {
   width: 50%;
   color: white;
   padding: 3rem;
+  margin: 0 auto;
+  opacity: 0;
+  animation: fadeIn 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
