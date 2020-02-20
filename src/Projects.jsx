@@ -29,7 +29,7 @@ const Projects = () => {
           <div className="center-box">
             <div className="info-box box-3">
               <h3> Sometimes a new perspective is all you need to tackle your business's greatest challenge. </h3>
-                <a class="ui red basic button" href="https://www.instagram.com/blakeyerickson" target="blank">Go to instagram.com</a>
+                <a class="ui red basic button" href="https://www.instagram.com/blakeyerickson" target="blank">Follow my journey through space and time</a>
             </div>
           </div>
       </div>
