@@ -1,55 +1,25 @@
-import React, { Component } from "react";
-import axios from "axios";
-import ProjectCard from "./ProjectCard";
-import { UndrawDashboard } from "react-undraw-illustrations";
+import React from "react";
 
-class Projects extends Component {
-  state = {
-    projects: []
-  };
 
-  componentDidMount() {
-    axios.get('./src/data/projects.json')
-      .then(response => {
-        this.setState({
-          projects: response.data
-        })
-      })
-  }
-
-  render() {
-    const projects = this.state.projects;
-    let projectsList;
-
-    if (projects.length > 0) {
-      projectsList = projects.map(project => {
-        return (
-          <div id={'project-' + project.id} key={project.id}>
-           <ProjectCard project={project} />
+const Projects = () => {
+  return ( 
+    <div className="super">
+      <div className="case-study">
+        <div className="fold-1" style = {{background: 'url("./src/img/futchi-player.png")', backgroundSize: 'cover', height: '50vh'}}>       
+          <div className="info-box">
+            <h3>Cofounded and launched Futchi, a social soccer sport and app experience that 
+                has been played in over 20 countries across North America, EMEA, and APAC. </h3>
+                <a class="ui red basic button" href="https://www.playfutchi.com" target="blank">Go to futchi.com</a>
           </div>
-        );
-      });
-    }
-
-    return (
-      <div className="ui main container">
-        <div className="ui stackable two column grid">
-          <div className="column">
-          <UndrawDashboard primaryColor='#12283a' height='200px' />
-          </div>
-          <div className="column">
-            <h1 className="ui header">My Projects</h1>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quod
-              ab doloremque eaque. Consequatur temporibus, quos enim, eaque nemo ad
-              iusto sequi modi totam qui veniam? Ab asperiores inventore distinctio.
-            </p>
-          </div>
+         </div>
         </div>
-        <div className="ui stackable four column grid">{projectsList}</div>
+      <div className="fold-1">
+        <div className="case-text">
+          
+        </div>
+      
       </div>
-    );
-  }
+    </div>
+  );
 }
-
 export default Projects;

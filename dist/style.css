@@ -13,6 +13,10 @@ footer {
   opacity: 0.9;
 }
 
+.ui.cards {
+  justify-content: center;
+  text-align: center;
+}
 .ui.card:hover {
   transform: translateY(-1.1rem) scale(1.02); 
   -webkit-transition: all 1s ease-in-out;
@@ -50,4 +54,23 @@ footer {
 
 .item {
   padding-top: 1.5rem;
+}
+
+.fold-1 {
+  background:#202020;
+  height: 40vh;
+  text-align: center;
+}
+
+.case-study {
+  margin-top: -1rem;
+}
+
+.info-box {
+  background: #202020;
+  opacity: 0.85;
+  text-align: center;
+  width: 50%;
+  color: white;
+  padding: 3rem;
 }
