@@ -21,14 +21,6 @@ const Header = () => {
             id="tab-element"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
-            to="/services"
-          >
-            Services
-          </NavLink>
-          <NavLink
-            id="tab-element"
-            className="ui item"
-            activeStyle={{ fontWeight: "bold" }}
             to="/projects"
           >
             Portfolio

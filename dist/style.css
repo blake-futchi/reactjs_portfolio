@@ -13,18 +13,6 @@ footer {
   opacity: 0.9;
 }
 
-.ui.cards {
-  justify-content: center;
-  text-align: center;
-}
-.ui.card:hover {
-  transform: translateY(-1.1rem) scale(1.02); 
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-
 #tab:hover { 
   color: #da3e44;
   -webkit-transition: all 1s ease-in-out;
@@ -69,6 +57,10 @@ footer {
   text-align: center;
 }
 
+.fold-end {
+  height: 60vh;
+}
+
 .case-study {
   margin-top: -1rem;
 }
@@ -101,5 +93,11 @@ footer {
 .box-2 {
   animation: fadeIn 3s;
   animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+.box-3 {
+  animation: fadeIn 3s;
+  animation-delay: 8s;
   animation-fill-mode: forwards;
 }
