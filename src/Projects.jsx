@@ -7,17 +7,29 @@ const Projects = () => {
       <div className="case-study">
         <div className="fold-1" style = {{background: 'url("./src/img/futchi-player.png")', backgroundSize: 'cover', height: '50vh'}}>       
           <div className="info-box">
-            <h3>Cofounded and launched Futchi, a social soccer sport and app experience that 
+            <h3>Cofounded and launched Futchi, a social soccer sport that 
                 has been played in over 20 countries across North America, EMEA, and APAC. </h3>
                 <a class="ui red basic button" href="https://www.playfutchi.com" target="blank">Go to futchi.com</a>
           </div>
          </div>
         </div>
-      <div className="fold-1">
-        <div className="case-text">
-          
-        </div>
-      
+        <div className="fold-1" style = {{background: 'url("./src/img/buildings.png")', backgroundSize: 'cover', height: '50vh'}}>       
+          <div className="info-box box-1">
+            <h3>Developed and executed go to market strategy for Fast, a G.Fast provider that delivers gigabit internet over legacy wiring.</h3>
+                <a class="ui red basic button" href="https://fastsystems.net" target="blank">Go to fast.com</a>
+          </div>
+      </div>
+      <div className="fold-1" style = {{background: 'url("./src/img/westside.jpg")', backgroundSize: 'cover', height: '50vh'}}>       
+          <div className="info-box box-2">
+            <h3>Directed experience mapping initiative for dermatology practice, throttling growth through technology, best practices, and marketing. </h3>
+                <a class="ui red basic button" href="https://www.wsderm.com" target="blank">Go to wsderm.com</a>
+          </div>
+      </div>
+      <div className="fold-1 end" style = {{background: 'url("./src/img/me.jpg")', backgroundSize: 'cover', height: '50vh'}}>       
+          <div className="info-box box-2">
+            <h3>Built adventure photography portfolio, international network, and multiple language fluency through my passion for travel and personal growth </h3>
+                <a class="ui red basic button" href="https://www.instagram.com/blakeyerickson" target="blank">Go to instagram.com</a>
+          </div>
       </div>
     </div>
   );

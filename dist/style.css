@@ -52,6 +52,13 @@ footer {
   margin-top: -1rem;
 }
 
+.container-about {
+  background: black; 
+}
+
+.hero-about {
+  opacity: 0.7;
+}
 .item {
   padding-top: 1.5rem;
 }
@@ -73,4 +80,26 @@ footer {
   width: 50%;
   color: white;
   padding: 3rem;
+  margin: 0 auto;
+  opacity: 0;
+  animation: fadeIn 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.box-1 {
+  animation: fadeIn 3s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+.box-2 {
+  animation: fadeIn 3s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
 }
