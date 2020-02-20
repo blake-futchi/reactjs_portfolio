@@ -52,6 +52,13 @@ footer {
   margin-top: -1rem;
 }
 
+.container-about {
+  background: black; 
+}
+
+.hero-about {
+  opacity: 0.7;
+}
 .item {
   padding-top: 1.5rem;
 }
@@ -62,9 +69,6 @@ footer {
   text-align: center;
 }
 
-.end {
-  height: 70vh;
-}
 .case-study {
   margin-top: -1rem;
 }
