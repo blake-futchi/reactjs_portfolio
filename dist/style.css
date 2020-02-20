@@ -69,6 +69,10 @@ footer {
   text-align: center;
 }
 
+.fold-end {
+  height: 60vh;
+}
+
 .case-study {
   margin-top: -1rem;
 }
@@ -101,5 +105,11 @@ footer {
 .box-2 {
   animation: fadeIn 3s;
   animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+.box-3 {
+  animation: fadeIn 3s;
+  animation-delay: 8s;
   animation-fill-mode: forwards;
 }

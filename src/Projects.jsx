@@ -25,10 +25,12 @@ const Projects = () => {
                 <a class="ui red basic button" href="https://www.wsderm.com" target="blank">Go to wsderm.com</a>
           </div>
       </div>
-      <div className="fold-1 end" style = {{background: 'url("./src/img/me.jpg")', backgroundSize: 'cover', height: '50vh'}}>       
-          <div className="info-box box-2">
-            <h3>Built adventure photography portfolio, international network, and multiple language fluency through my passion for travel and personal growth </h3>
+      <div className="fold-1" style = {{background: 'url("./src/img/balance.jpg")', backgroundSize: 'cover', height: '60vh'}}>       
+          <div className="center-box">
+            <div className="info-box box-3">
+              <h3> Sometimes a new perspective is all you need to tackle your business's greatest challenge. </h3>
                 <a class="ui red basic button" href="https://www.instagram.com/blakeyerickson" target="blank">Go to instagram.com</a>
+            </div>
           </div>
       </div>
     </div>
