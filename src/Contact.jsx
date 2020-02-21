@@ -2,7 +2,13 @@ import React from "react";
 
 const Contact = () => {
   return (
- <div></div>
+    <Route
+    {...routeProps}
+    render={() => {
+      window.location.replace(props.link);
+      return null;
+    }}
+  />
   );
 }
 
