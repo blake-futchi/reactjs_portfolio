@@ -1,8 +1,10 @@
 describe('Portfolio interface', () => {
   it('successfully renders',() => {
     cy.visit('http://localhost:3000');
-    cy.get('#header').should('contain', 'My Portfolio');
-    cy.get('#footer').should('contain', 'Made with React 16.12.0');
-    cy.get('#hello').should('contain', 'Hello World');
+    cy.get('#tab').should('contain', 'Blake Erickson');
+    cy.get('.hero-text').should('contain', 'Entrepreneur');
+    cy.get('#insta_icon').click();
+    cy.get('#link_icon').click();
+    cy.get('#mail_icon').click();
   })
 })
