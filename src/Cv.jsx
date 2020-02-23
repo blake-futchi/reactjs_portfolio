@@ -14,8 +14,10 @@ class Cv extends Component {
     if (cv.length > 0) {
       cvList = cv.map(cv => {
         return (
-          <div className="ui main container container-about-text">
-            <div className="ui header" id="cv-text">{cv.company}<div>{cv.position}</div><div>{cv.description}</div></div>
+          <div className="ui main container">
+            <div className="ui header">{cv.company}</div>
+            <div className="position">{cv.position}</div>
+            <div className="description">{cv.description}</div>
           </div>
         );
       });

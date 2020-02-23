@@ -5,29 +5,35 @@ describe('User can see cv', () => {
   })
 
   it('displays first project', () => {
-    cy.get('.super').within(() => {
-      cy.get('.info-box').should('contain', 'Cofounded and launched Futchi');
-      cy.get('.ui.red.basic.button').should('contain', 'Go to futchi.com');
+    cy.get('.ui.main.container').within(() => {
+      cy.get('.ui.header').should('contain', 'SpaceX');
+      cy.get('.position').should('contain', 'Astronaut');
+      cy.get('.description').should('contain', 'Commandeered');
     })
   });
 
   it('displays second project', () => {
-    cy.get('.super').within(() => {
-      cy.get('.info-box').should('contain', 'Developed and executed');
-      cy.get('.ui.red.basic.button').should('contain', 'Go to fast.com');
+    cy.get('.ui.main.container').within(() => {
+      cy.get('.ui.header').should('contain', 'Ikea');
+      cy.get('.position').should('contain', 'Meatball');
+      cy.get('.description').should('contain', 'Swedish meatballs');
     })
   });
 
   it('displays third project', () => {
-    cy.get('.super').within(() => {
-      cy.get('.info-box').should('contain', 'Directed experience mapping');
-      cy.get('.ui.red.basic.button').should('contain', 'Go to wsderm.com');
+    cy.get('.ui.main.container').within(() => {
+      cy.get('.ui.header').should('contain', 'CIA');
+      cy.get('.position').should('contain', 'Agent');
+      cy.get('.description').should('contain', 'NDA');
     })
-  });  
+  });
+
   it('displays fourth project', () => {
-    cy.get('.super').within(() => {
-      cy.get('.info-box').should('contain', 'Sometimes a new perspective');
-      cy.get('.ui.red.basic.button').should('contain', 'Follow my');
+    cy.get('.ui.main.container').within(() => {
+      cy.get('.ui.header').should('contain', 'Le Bernardin');
+      cy.get('.position').should('contain', 'Sommelier');
+      cy.get('.description').should('contain', '10,000');
     })
-  });  
+  });
+
 });
