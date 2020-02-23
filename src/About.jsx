@@ -15,7 +15,7 @@ class About extends Component {
       projectsList = projects.map(project => {
         return (
           <div className="ui main container container-about-text">
-            <div className="ui header">{project.description}</div>
+            <div className="ui header" id="about-text">{project.description}</div>
           </div>
         );
       });

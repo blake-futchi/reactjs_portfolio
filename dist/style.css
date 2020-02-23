@@ -21,7 +21,25 @@ footer {
   transition: all 1s ease-in-out;
 }
 
-#tab-element:hover { 
+#about:hover { 
+  transform: translateY(.3rem); 
+  color: #da3e44;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#projects:hover { 
+  transform: translateY(.3rem); 
+  color: #da3e44;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#contact:hover { 
   transform: translateY(.3rem); 
   color: #da3e44;
   -webkit-transition: all 1s ease-in-out;
@@ -72,7 +90,7 @@ footer {
   background: #202020;
   opacity: 0.85;
   text-align: center;
-  width: 50%;
+  width: 70%;
   color: white;
   padding: 3rem;
   margin: 0 auto;
