@@ -58,12 +58,16 @@ footer {
   margin-top: -1rem;
 }
 
-.container-about {
+.container.about {
   background: black; 
 }
 
 .container-about-text {
   padding-top: 12rem;
+  text-align: center;
+  color: #111017;
+  font-style: italic;
+  font-size: 1em;
 }
 .hero-about {
   opacity: 0.7;
@@ -121,10 +125,4 @@ footer {
   animation: fadeIn 3s;
   animation-delay: 8s;
   animation-fill-mode: forwards;
-}
-
-.ui.header {
-  text-align: center;
-  color: #111017;
-  font-style: italic;
 }

@@ -26,6 +26,14 @@ const Header = () => {
             Portfolio
           </NavLink>
           <NavLink
+            id="cv"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/cv"
+          >
+            CV
+          </NavLink>
+          <NavLink
             id="contact"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
